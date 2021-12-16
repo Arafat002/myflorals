@@ -1,0 +1,171 @@
+@import url('https://fonts.googleapis.com/css2?family=Readex+Pro:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,300&family=Readex+Pro:wght@300&display=swap');
+
+header {
+  width: 100%;
+  height: 10vh;
+  margin: 0;
+  background-color: #F29F05;
+}
+.logo {
+  float: left;
+  padding: 0.5em;
+  font-family: pacifico;
+  margin-left: 5px;
+  font-size: 50px;
+  color: darkslateblue;
+
+}
+.logo a{
+  color: darkslateblue;
+  text-decoration: none;
+}
+.menu {
+  float: right;
+  padding: 1em;
+}
+.menu a {
+  padding-right: 1em;
+  font-family: oswald;
+  color: #dde1e7;
+  text-decoration: none;
+  font-size: 30px;
+}
+   .banner {
+     background: url(./1000_F_229084970_srS6rbRau6JyqFnUjUxNCivJiWLbg4vP.jpg);
+     background-size:cover;
+     height: 100vh;
+     width: 100%;
+
+   }
+   .aboutus {
+     padding-top: 1.875em;
+     font-family: oswald;
+     font-size: 1.56em;
+     width: 80%;
+     text-align: left;
+     background-color: #F2CB05;
+     margin-left: 2em;
+   }
+.about {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  margin-left: 2em;
+  grid-gap: 1.56;
+  margin-right: 2em;
+  background-color: #F2CB05;
+}
+.about h2 {
+  text-align: center;
+  font-family: 'Readex Pro', sans-serif;
+}
+.about p {
+  padding: 1.5em;
+ font-family: 'Montserrat', sans-serif;
+  font-size: 20px;
+}
+.mission, .vision {
+  height: 25.00em;
+  width: 18.75em;
+  background: #F2CB05;
+  border: 1px solid white;
+  box-shadow: -3px -3px 5px #ffffff, 3px 3px 15px #000000;
+  border-radius: 15px;
+}
+   .item {
+     background-color: #F2CB05;
+   }
+   .services {
+     margin-left: 2em;
+     padding-top: 50px;
+     float: center;
+     font-family: oswald;
+     font-size: 25px;
+     width: 80%;
+     text-align: left;
+     background-color: #F2CB05;
+    
+   }
+   .flowers {
+     display: grid;
+     grid-template-columns: 30% 30% 40%;
+     margin-left: 2em;
+     grid-gap: 5px;
+     padding-top: 40px;
+     background-color:#F2CB05;
+     margin-right: 0%;
+   }
+   .flowers i{
+    display:flex;
+    float: left;
+    border: 1px solid black;
+    padding: 10px;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding: 10px;
+    font-size: 35px;
+   }
+     
+     input[type=text], select, textarea {
+       width: 100%;
+       height: 50px;
+       padding: 12px;
+       border-radius: 15px;
+       box-sizing: border-box;
+       margin-top: 6px;
+       margin-bottom: 16px;
+       resize: vertical;
+       border: 1px solid black;
+       font-size: 20px;
+       background-color: goldenrod;
+     }
+      .container {
+        font-size: 20px;
+        border-radius: 15px;
+        margin-right: 50px;
+        margin-top: -90px;
+        border: 3px solid black;
+        padding: 15px;
+      }
+       .container h2{
+         text-align: center;
+         padding: 10px;
+       }
+       input[type=submit] {
+         background-color: darkslateblue;
+         color: black;
+         padding: 12px, 20px;
+         border: none;
+         border-radius: 8px;
+         cursor: pointer;
+         width: 100px;
+         font-size: 20px;
+         font-family: oswald;
+       }
+       footer {
+         background-color: paleturquoise;
+         height: 290px;
+         width: 100%;
+         margin-top: 40px;
+       }
+       .socials {
+         display: flex;
+        float: center;
+        padding: 1em;
+        font-family: pacifico;
+        margin-left: 5px;
+        font-size: 50px;
+        color: goldenrod;
+        justify-content: space-around;
+       }
+.contact {
+  display: flex;
+  font-size: 40px;
+  text-indent: 50px;
+
+}
+
+
+       
+   
+  
